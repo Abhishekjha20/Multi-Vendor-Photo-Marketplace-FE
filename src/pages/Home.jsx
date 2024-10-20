@@ -1,7 +1,10 @@
+import HeroSection from "../components/HeroSection"
 
-function Home() {
+function  Home() {
   return (
-    <div>Home</div>
+    <div className="mt-36">
+    <HeroSection/>
+    </div>
   )
 }
 
