@@ -1,5 +1,6 @@
 import ImageCard from "./ImageCard";
-import Pic1 from "../assets/Pic1.jpg"
+import Pic1 from "../assets/Pic1.jpg";
+import Pic2 from "../assets/PIC2.jpg";
 import { FaShoppingCart } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
 const PhotoGallery = () => {
@@ -18,6 +19,39 @@ const PhotoGallery = () => {
                     icon1={<FaShoppingCart/>}
                     icon2 = {<IoIosHeart/>}
                 />
+                <ImageCard
+                    title="The Beach"
+                    image={Pic1}
+                    price="20"
+                    author="@Abhishek"
+                    icon1={<FaShoppingCart/>}
+                    icon2 = {<IoIosHeart/>}
+                />
+                <ImageCard
+                    title="The Beach"
+                    image={Pic1}
+                    price="20"
+                    author="@Abhishek"
+                    icon1={<FaShoppingCart/>}
+                    icon2 = {<IoIosHeart/>}
+                />
+                <ImageCard
+                    title="The Beach"
+                    image={Pic1}
+                    price="20"
+                    author="@Abhishek"
+                    icon1={<FaShoppingCart/>}
+                    icon2 = {<IoIosHeart/>}
+                />
+                <ImageCard
+                    title="The Beach"
+                    image={Pic1}
+                    price="20"
+                    author="@Abhishek"
+                    icon1={<FaShoppingCart/>}
+                    icon2 = {<IoIosHeart/>}
+                />
+                
             </div>
         </div>
     )
