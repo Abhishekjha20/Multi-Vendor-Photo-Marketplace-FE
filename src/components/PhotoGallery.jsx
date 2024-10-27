@@ -21,7 +21,7 @@ const PhotoGallery = () => {
                 />
                 <ImageCard
                     title="The Beach"
-                    image={Pic1}
+                    image={Pic2}
                     price="20"
                     author="@Abhishek"
                     icon1={<FaShoppingCart/>}
