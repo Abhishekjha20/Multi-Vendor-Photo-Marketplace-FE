@@ -17,7 +17,7 @@ const location = useLocation();
 // When page renders,useEffect run first
 useEffect(()=>{
     if(nodeRef.current){
-gsap.fromTo()
+gsap.fromTo();
     }
 
 },[location])
