@@ -6,6 +6,7 @@ import Signup from '../pages/Signup';
 import SellerDashboard from '../pages/SellerDashboard';
 import BuyerDashboard from '../pages/BuyerDashboard';
 import gsap from 'gsap';
+import toast, { Toaster } from 'react-hot-toast';
 
 function GsapTransition() {
 
@@ -30,6 +31,7 @@ function GsapTransition() {
 
   return (
     <div ref={nodeRef}>
+      <Toaster/>
       <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
