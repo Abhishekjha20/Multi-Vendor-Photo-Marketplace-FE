@@ -16,43 +16,67 @@ const PhotoGallery = () => {
                     image={Pic1}
                     price="20"
                     author="@Abhishek"
-                    icon1={<FaShoppingCart/>}
-                    icon2 = {<IoIosHeart/>}
+                    icon1={<FaShoppingCart />}
+                    icon2={<IoIosHeart />}
                 />
                 <ImageCard
                     title="The Beach"
                     image={Pic2}
                     price="20"
                     author="@Abhishek"
-                    icon1={<FaShoppingCart/>}
-                    icon2 = {<IoIosHeart/>}
+                    icon1={<FaShoppingCart />}
+                    icon2={<IoIosHeart />}
                 />
                 <ImageCard
                     title="The Beach"
                     image={Pic1}
                     price="20"
                     author="@Abhishek"
-                    icon1={<FaShoppingCart/>}
-                    icon2 = {<IoIosHeart/>}
+                    icon1={<FaShoppingCart />}
+                    icon2={<IoIosHeart />}
                 />
                 <ImageCard
                     title="The Beach"
                     image={Pic1}
                     price="20"
                     author="@Abhishek"
-                    icon1={<FaShoppingCart/>}
-                    icon2 = {<IoIosHeart/>}
+                    icon1={<FaShoppingCart />}
+                    icon2={<IoIosHeart />}
                 />
                 <ImageCard
                     title="The Beach"
                     image={Pic1}
                     price="20"
                     author="@Abhishek"
-                    icon1={<FaShoppingCart/>}
-                    icon2 = {<IoIosHeart/>}
+                    icon1={<FaShoppingCart />}
+                    icon2={<IoIosHeart />}
                 />
-                
+
             </div>
+
+
+            {/* Another way */}
+            {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 bg-20">
+    {[
+        { title: "The Beach", image: Pic1, price: "20", author: "@Abhishek" },
+        { title: "The Beach", image: Pic2, price: "20", author: "@Abhishek" },
+        { title: "The Beach", image: Pic1, price: "20", author: "@Abhishek" },
+        { title: "The Beach", image: Pic1, price: "20", author: "@Abhishek" },
+        { title: "The Beach", image: Pic1, price: "20", author: "@Abhishek" },
+    ].map((photo, index) => (
+        <ImageCard
+            key={index}
+            title={photo.title}
+            image={photo.image}
+            price={photo.price}
+            author={photo.author}
+            icon1={<FaShoppingCart />}
+            icon2={<IoIosHeart />}
+        />
+    ))}
+</div> */}
+
+
         </div>
     )
 }
